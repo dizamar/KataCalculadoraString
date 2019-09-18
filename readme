@@ -1,0 +1,14 @@
+Este repositorio contiene el punto de partida para practicar el kata del String Calculator utilizando kotlin como base con gradle y con las instrucciones en español.
+
+Debe instalar el plugin kotlintest para el IntelliJ
+
+Codigo de plantilla spec
+Nombre : spec
+`"$titulo$" should {
+     "deberia $deberia$"{
+         sistemaBajoPrueba = clase
+         resultado = sistemaBajoPrueba.Metodo()
+         //prueba 
+         resultado.shouldBe(valor)
+     }
+ }`
